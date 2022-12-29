@@ -6,5 +6,7 @@ eureka:
       defaultZone: http://localhost:8010/eureka/
 ---
 spring:
-  profiles: int
+  config:
+    activate:
+      on-profile: int
 words: I,You,He,She,It
