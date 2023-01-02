@@ -1,5 +1,7 @@
 ---
 # Items that apply to ALL profiles:
+words: 
+  value: bydefault,One
 eureka:
   client:
     serviceUrl:
@@ -9,4 +11,5 @@ spring:
   config:
     activate:
       on-profile: int
-words: I,You,He,She,It
+words: 
+  value: I,You,He,She,It
